@@ -9,7 +9,6 @@ const Layout = ({ children }) => {
       <Box display={{ sm: "none", md: "block" }}>
         <SideBar />
       </Box>
-
       <Box w="100%">
         <NavBar />
         <Box p="1rem">{children}</Box>
