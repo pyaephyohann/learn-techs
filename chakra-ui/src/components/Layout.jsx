@@ -7,7 +7,9 @@ const Layout = ({ children }) => {
   return (
     <Flex>
       <Box display={{ sm: "none", md: "block" }}>
-        <SideBar />
+        <Box>
+          <SideBar />
+        </Box>
       </Box>
       <Box w="100%">
         <NavBar />
